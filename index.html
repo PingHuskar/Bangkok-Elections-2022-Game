@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Bangkok Elections 2022 Game</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="page_Wrapper">
+        	<marquee><p><span id="score">0</span> คะแนน</p></marquee>
+        	<marquee><p>น้ำรอระบาย</p></marquee>
+        	<marquee><p>รถติด</p></marquee>
+        	<marquee><p>ไม่มีเครื่องคิดเลข</p></marquee>
+        	<marquee><p>หากุญแจไม่เจอ</p></marquee>
+        	<marquee><p>คลองโอ่งอ่าง</p></marquee>
+        	<marquee><p>PM 2.5</p></marquee>
+        	<marquee><p>ทางม้าลายอย่างปลอดภัย</p></marquee>
+        	<marquee><p>วงจรปิดเสีย</p></marquee>
+        	<marquee><p>รถไฟฟ้าแพง</p></marquee>
+            <marquee><p>เลือกคนดีย์</p></marquee>
+        	<marquee><p>จราจรติดขัด</p></marquee>
+        	<marquee><p>โรงเรียนห่วย</p></marquee>
+        	<marquee><p>นายกโง่</p></marquee>
+        	<marquee><p>ไม่เลือกเรา เขามาแน่</p></marquee>
+        	<marquee><p>สวัสดิการผู้สูงอายุ</p></marquee>
+        	<marquee><p>โตไปไม่โกง</p></marquee>
+        	<marquee><p>ภาษีป้าย</p></marquee>
+        	<marquee><p>ใต้โต๊ะเทศกิจ</p></marquee>
+        	<marquee><p>สวนใกล้บ้าน โรงเรียนคุณภาพใกล้บ้าน</p></marquee>
+        	
+        	
+            <img src="https://pinghuskar.github.io/randomCandidate/image/8.jpg" onclick="f();document.body.style.backgroundColor='#22C55E';document.getElementById('score').innerHTML=parseInt(document.getElementById('score').innerHTML)+1" id="candit8" style="position: fixed;" />
+            <img src="https://pinghuskar.github.io/randomCandidate/image/11.jpg" onclick="f();document.body.style.backgroundColor='darkblue';document.getElementById('score').innerHTML=parseInt(document.getElementById('score').innerHTML)+1" id="candit11" style="position: fixed;" />
+            <img src="https://www.moveforwardparty.org/wp-content/uploads/2021/03/วิโรจน์-ลักขณาอดิศร-โฆษกพรรค.jpg" onclick="this.style.display='none';document.body.style.backgroundColor='orange';document.getElementById('score').innerHTML=parseInt(document.getElementById('score').innerHTML)+2" id="candit1" style="position: fixed;" />
+            <img src="https://pinghuskar.github.io/randomCandidate/image/7.jpg" onmouseover="GameOver();Prep(this);" id="a" style="position: fixed;"/>
+            <img src="https://pinghuskar.github.io/randomCandidate/image/4.jpg" onmouseover="GameOver();Prep(this);" id="b" style="position: fixed;"/>
+            <img src="https://pinghuskar.github.io/randomCandidate/image/3.jpg" onmouseover="GameOver();Prep(this);" id="c" style="position: fixed;"/>
+            <img src="https://pinghuskar.github.io/randomCandidate/image/6.0.jpg" onmouseover="GameOver();Prep(this);" id="d" style="position: fixed;"/>
+        </div>
+        
+        <!-- Include the script after all DOM elements have been created, to avoid any potential DOM-related errors -->
+        <script src="app.js"></script>
+    </body>
+</html>
